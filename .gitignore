@@ -1,0 +1,43 @@
+# Compiled class file
+*.class
+target/
+bin/
+
+# Log file
+*.log
+
+# IDE specific files
+.settings/
+.classpath
+.project
+*.launch
+# .vscode/ 
+
+# Maven specific
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Application specific data / configuration that should not be committed
+src/main/resources/config.properties  # Bỏ qua file config.properties thật chứa thông tin nhạy cảm
+
+# Các thư mục dữ liệu người dùng hoặc file lớn (tùy chọn)
+# data_storage/           
+# app_audio_data/         
+# data/                   
+# src/main/resources/fonts/ # Bỏ comment nếu bạn không muốn commit thư mục fonts
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
